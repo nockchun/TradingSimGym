@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "TradingSimGym"
+version = "0.1.0"
+description = "Environments For Trading Backtesting & RL GYM"
+authors = ["nockchun"]
+license = "Apache Licence 2.0"
+readme = "README.md"
+homepage = "https://github.com/nockchun/TradingSimGym"
+repository = "https://github.com/nockchun/TradingSimGym"
+keywords = ["gym environments", "reenforcement learning", "python"]
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
